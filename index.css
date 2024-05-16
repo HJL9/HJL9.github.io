@@ -1,6 +1,16 @@
-html{
-    background-attachment: rgb(172, 215, 239);
+@font-face {
+    font-family: sokcho;
+    src: url(SokchoBadaDotum.ttf);
 }
+
+html{
+    background-color: rgb(158, 212, 248);
+}
+
 h1 {
-    
+    font-family: sokcho;
+    font-size: 90px;
+    color: white;
+    margin: 200px auto 0;
+    text-align: center;
 }
