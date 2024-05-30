@@ -18,18 +18,20 @@ h1 {
 div {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
+    margin: 20px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav ul li a {
@@ -44,4 +46,5 @@ img {
     transform: translateX(-50%);
     width: 1250px;
     height: auto;
-}
+
+
