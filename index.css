@@ -47,4 +47,6 @@ img {
     width: 1250px;
     height: auto;
 
-
+body.about-page {
+    background-color: white !important;
+}
