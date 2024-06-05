@@ -46,7 +46,3 @@ img {
     transform: translateX(-50%);
     width: 1250px;
     height: auto;
-
-body.about-page {
-    background-color: white !important;
-}
