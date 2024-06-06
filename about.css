@@ -28,9 +28,21 @@ nav ul li a {
     text-decoration: none;
 }
 
+.container {
+    position: relative;
+}
+
 h1 {
     color: rgb(4, 66, 121);
-    position: absolute; /* 절대 위치 지정 */
-            top: 300%; /* 상단 여백 */
-            right: 35%; /* 오른쪽으로 치우치기 */
+    position: absolute;
+    top: 210px;
+    right: 600px;
+}
+
+
+p {
+    position: absolute;
+    top: 280px;
+    right: 100px;
+    color: rgb(4, 39, 71);
 }
