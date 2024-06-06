@@ -1,3 +1,36 @@
 body {
     background-color: white;
+    position: relative; /* 부모 요소를 기준으로 절대 위치 지정 */
+    margin: 0; /* 기본 여백 제거 */
+}
+
+div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(126, 185, 235);
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(4, 66, 121);
+    position: absolute; /* 절대 위치 지정 */
+            top: 300%; /* 상단 여백 */
+            right: 35%; /* 오른쪽으로 치우치기 */
 }
