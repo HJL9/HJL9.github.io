@@ -22,6 +22,16 @@ div {
     margin: 20px;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    font-family: nanum;
+    font-size: 15px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
